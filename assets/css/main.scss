@@ -5,3 +5,64 @@
 @import 'vendor/normalize';
 
 @import 'base/root';
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: url(/assets/images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align:center;
+}
+p {
+  @media screen and (max-width: 700px) {
+    font-size: 2.5rem;
+  }
+  font-size: 5rem;
+  font-weight: 900;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+.divider {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #4c36fd;
+  font-style: normal;
+  font-size: 3em;
+  font-family: 'Source Code Pro', monospace;
+}
+
+main {
+  height: 100%;
+  max-width: 2000px;
+  margin: auto;
+}
+
+
+#logo {
+  margin:auto;
+  margin-top: 5rem;
+  font-size: 5rem;
+  font-weight: bold;
+  width:10rem;
+  height:10rem;
+  background-color:black;
+  text-align: center;
+  color: white;
+  line-height:10rem;
+  background: linear-gradient(45deg,#21f865 0,#4c35fe 100%);
+  font-family: 'Source Code Pro', monospace;
+}
+a {
+  color: #21f865;
+  text-decoration: none;
+}
